@@ -10,3 +10,4 @@ public class SpringBootTwitterBootstrapWebjarApplication {
 		SpringApplication.run(SpringBootTwitterBootstrapWebjarApplication.class, args);
 	}
 }
+
