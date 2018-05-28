@@ -19,7 +19,7 @@ public class WebController {
     }
     
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(value="",method = RequestMethod.POST)
     public String Greeting(@ModelAttribute("user") User user,ModelMap userMap){
     	
     	userMap.addAttribute("username", user.getId());
